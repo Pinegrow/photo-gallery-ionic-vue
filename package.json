@@ -9,8 +9,9 @@
   "description": "Build a photo gallery app that runs on iOS, Android, and the web - with just one codebase.",
   "scripts": {
     "dev": "vite",
+    "now": "npm run build && npm run preview",
     "build": "vue-tsc --noEmit && vite build",
-    "serve": "vite preview"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@capacitor/android": "^5.2.2",
