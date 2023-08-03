@@ -54,7 +54,7 @@
     <ion-content>
       <ion-grid>
         <ion-row>
-          <ion-col size="6" v-for="photo in photos" :key="photo">
+          <ion-col size="6" v-for="photo in photos" :key="photo.filepath">
             <ion-img
               :src="photo.webviewPath"
               @click="showActionSheet"
