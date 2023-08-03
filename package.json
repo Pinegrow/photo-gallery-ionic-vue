@@ -1,0 +1,45 @@
+{
+  "name": "photo-gallery-ionic-vue",
+  "version": "0.0.0",
+  "homepage": "https://photo-gallery-ionic-vue.netlify.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pinegrow/photo-gallery-ionic-vue.git"
+  },
+  "description": "Build a photo gallery app that runs on iOS, Android, and the web - with just one codebase.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@capacitor/android": "^5.2.2",
+    "@capacitor/app": "^5.0.6",
+    "@capacitor/camera": "^5.0.6",
+    "@capacitor/core": "^5.2.2",
+    "@capacitor/filesystem": "^5.1.1",
+    "@capacitor/haptics": "^5.0.6",
+    "@capacitor/ios": "^5.2.2",
+    "@capacitor/keyboard": "^5.0.6",
+    "@capacitor/preferences": "^5.0.6",
+    "@capacitor/status-bar": "^5.0.6",
+    "@ionic/pwa-elements": "^3.2.2",
+    "@ionic/vue": "^7.2.2-nightly.20230802",
+    "@ionic/vue-router": "^7.2.2-nightly.20230802",
+    "ionicons": "^7.1.2",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^5.2.2",
+    "@pinegrow/vite-plugin": "^3.0.8",
+    "@types/node": "^20.4.6",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "typescript": "^5.1.6",
+    "unplugin-auto-import": "^0.16.6",
+    "unplugin-vue-components": "^0.25.1",
+    "vite": "^4.4.8",
+    "vite-plugin-vue-devtools": "^1.0.0-beta.6",
+    "vue-tsc": "^1.8.8"
+  }
+}
