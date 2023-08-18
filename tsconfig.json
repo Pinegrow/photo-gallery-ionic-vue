@@ -18,6 +18,7 @@
     "lib": ["esnext", "dom"],
     "strict": false,
     "allowJs": true,
+    "baseUrl": "./",
     "paths": {
       "@/*": ["./src/*"],
       "~/*": ["./src/*"],

@@ -5,7 +5,7 @@ import { liveDesigner } from '@pinegrow/vite-plugin'
 import AutoImportComponents from 'unplugin-vue-components/vite'
 import { IonicResolver } from 'unplugin-vue-components/resolvers'
 import AutoImportAPIs from 'unplugin-auto-import/vite'
-import VueDevTools from 'vite-plugin-vue-devtools'
+// import VueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -37,7 +37,7 @@ export default defineConfig({
       vueTemplate: true,
       dts: 'auto-imports.d.ts',
     }),
-    VueDevTools(),
+    // VueDevTools(),
   ],
   resolve: {
     alias: {
