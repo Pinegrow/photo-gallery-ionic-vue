@@ -1,12 +1,4 @@
 {
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.d.ts",
-    "src/**/*.tsx",
-    "src/**/*.vue",
-    "components.d.ts",
-    "auto-imports.d.ts"
-  ],
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
@@ -25,5 +17,14 @@
       "~~/*": ["./*"]
     },
     "types": ["node"]
-  }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "components.d.ts",
+    "auto-imports.d.ts"
+  ],
+  "exclude": ["**/node_modules/**", "**/dist/**"]
 }
