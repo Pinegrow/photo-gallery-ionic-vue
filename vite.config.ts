@@ -1,9 +1,9 @@
-import { fileURLToPath, URL } from 'node:url'
-import { defineConfig } from 'vite'
+import {fileURLToPath, URL} from 'node:url'
+import {defineConfig} from 'vite'
 import vue from '@vitejs/plugin-vue'
-import { liveDesigner } from '@pinegrow/vite-plugin'
+import {liveDesigner} from '@pinegrow/vite-plugin'
 import AutoImportComponents from 'unplugin-vue-components/vite'
-import { IonicResolver } from 'unplugin-vue-components/resolvers'
+import {IonicResolver} from 'unplugin-vue-components/resolvers'
 import AutoImportAPIs from 'unplugin-auto-import/vite'
 // import VueDevTools from 'vite-plugin-vue-devtools'
 
@@ -28,7 +28,7 @@ export default defineConfig({
         // 'vue/macros',
         // '@vueuse/head',
         // '@vueuse/core',
-        // 'pinia',
+        'pinia',
       ],
       dirs: [
         // 'src/composables',
