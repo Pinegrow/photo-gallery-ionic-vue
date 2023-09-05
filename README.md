@@ -133,7 +133,7 @@ Allows JS & strict mode is turned off. Update `tsconfig.app.json` or `tsconfig.t
 
 ## Community
 
-- [Vue Designer Community](https://forum.pinegrow.com/c/vue-designer)
+- [Vue Designer Community](https://discord.gg/BYp45Nnu5T)
 
 ---
 
