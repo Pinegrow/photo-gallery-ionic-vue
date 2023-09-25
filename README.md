@@ -57,6 +57,12 @@ npm run dev
 npm run now # build & preview
 ```
 
+### Lighthouse
+
+```bash
+npm run unlighthouse # Uses npx unlighthouse from https://unlighthouse.dev/ to run lighthouse on entire site (all pages)
+```
+
 ### Build
 
 ```bash
@@ -96,6 +102,7 @@ Check out the [deployment documentation](https://vitejs.dev/guide/static-deploy.
 - 📲 [unplugin-auto-import](https://github.com/antfu/unplugin-auto-import) - Auto import APIs on-demand for Vite, Webpack and Rollup.
 - [VueUse](https://vueuse.org/) - collection of essential Vue composition utilities.
 - 🍍 [Pinia](https://pinia.vuejs.org/) stores for global state management. Its light-weight, type-safe, extensible, modular with vue-devtools support.
+- [VeeValidate](https://vee-validate.logaretm.com/v4/) takes care of value tracking, validation, errors, submissions and more.
 
 ### Devtools
 

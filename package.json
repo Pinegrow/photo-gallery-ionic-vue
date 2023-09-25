@@ -10,6 +10,7 @@
   "scripts": {
     "dev": "vite",
     "now": "npm run build && npm run preview",
+    "lighthouse": "npx unlighthouse --site https://photo-gallery-ionic-vue.netlify.app",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },
