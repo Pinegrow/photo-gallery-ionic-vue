@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@capacitor/cli": "^5.2.2",
-    "@pinegrow/vite-plugin": "^3.0.18",
+    "@pinegrow/vite-plugin": "^3.0.21",
     "@types/node": "^20.5.0",
     "@vitejs/plugin-vue": "^4.2.3",
     "typescript": "^5.1.6",
