@@ -42,6 +42,7 @@ export default defineConfig({
     }),
     // VueDevTools(),
     liveDesigner({
+      startupPage: '@/components/ExploreContainer.vue',
       //...
     }),
   ],
