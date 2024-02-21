@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@capacitor/cli": "^5.2.2",
-    "@pinegrow/vite-plugin": "^3.0.34",
+    "@pinegrow/vite-plugin": "^3.0.52",
     "@types/node": "^20.5.0",
     "@unocss/preset-icons": "^0.57.3",
     "@vitejs/plugin-vue": "^4.2.3",
