@@ -11,7 +11,6 @@
   "scripts": {
     "dev": "vite",
     "now": "npm run build && npm run preview",
-    "lighthouse:dev": "npx unlighthouse --no-cache --site http://localhost:5173",
     "lighthouse": "npx unlighthouse --no-cache --site https://photo-gallery-ionic-vue.netlify.app",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
@@ -44,7 +43,7 @@
   "devDependencies": {
     "@capacitor/cli": "^6.0.0",
     "@iconify/json": "^2.2.64",
-    "@pinegrow/vite-plugin": "^3.0.60",
+    "@pinegrow/vite-plugin": "^3.0.65",
     "@rushstack/eslint-patch": "^1.2.0",
     "@types/node": "^20.14.2",
     "@unocss/preset-icons": "^0.60.4",
