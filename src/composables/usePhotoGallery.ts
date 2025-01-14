@@ -1,10 +1,6 @@
 import { ref, onMounted, watch } from 'vue'
-import {
-  Camera,
-  CameraResultType,
-  CameraSource,
-  Photo,
-} from '@capacitor/camera'
+import type { Photo } from '@capacitor/camera'
+import { Camera, CameraResultType, CameraSource } from '@capacitor/camera'
 import { Filesystem, Directory } from '@capacitor/filesystem'
 import { Preferences } from '@capacitor/preferences'
 import { isPlatform } from '@ionic/vue'
