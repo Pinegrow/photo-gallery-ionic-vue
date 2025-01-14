@@ -2,6 +2,7 @@
   import { actionSheetController } from '@ionic/vue'
   import { camera, trash, close } from 'ionicons/icons'
   import type { UserPhoto } from '@/composables/usePhotoGallery'
+  import { usePhotoGallery } from '@/composables/usePhotoGallery'
 
   const { photos, takePhoto, deletePhoto } = usePhotoGallery()
 
