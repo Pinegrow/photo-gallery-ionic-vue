@@ -45,7 +45,7 @@
     "@capacitor/cli": "^6.2.0",
     "@iconify/json": "^2.2.295",
     "@nuxt/eslint-config": "^0.7.5",
-    "@pinegrow/vite-plugin": "3.0.74",
+    "@pinegrow/vite-plugin": "3.0.75",
     "@types/node": "^22.10.6",
     "@unocss/preset-icons": "^65.4.0",
     "@vitejs/plugin-legacy": "^6.0.0",
